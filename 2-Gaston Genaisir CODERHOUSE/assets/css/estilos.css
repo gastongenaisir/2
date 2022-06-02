@@ -39,76 +39,70 @@ nav ul li a{
 
 main{
     background-color: rgb(34, 9, 9);
-    height: 78vh;
+    height: 79vh;
     background-image: url(../img/fondo.webp);
     background-size:cover;
     background-repeat: no-repeat;
 }
 .hero{
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: space-around;
-    flex-flow: row;
 }
 
 .fotoControlRoom{
     display: flex;
-    width: 60%;
+    flex-direction: row wrap;
+    width: 80%;
     border-radius: 40px;
+    margin: 10% 20%;
 }
 .fotoPin{
     display: flex;
-    width: 60%;
+    flex-direction: row wrap;
+    width: 80%;
     border-radius: 40px;
-    justify-content: right;
+    margin: 10% 20% 10% 0%;
+;
 }
 h1{
     display: flex;
-    align-items: center;
+    flex-flow: row wrap;
     color: aliceblue;
     font-family: 'Russo One', sans-serif;
     font-size: calc(0.09em + 2vw);
-    text-shadow: red 0 -2px
-    margin 130px;
+    text-shadow: red 0 -2px;
+    width: 50%;
+    margin-left: 4%;
 }
 .redes{
     display: flex;
+    justify-content: center;
     flex-direction: row wrap;
     align-items: center;
-    background-color: blue;
 }
-
-
 #instagram{
     width: 80px;
-    /*position: absolute;
-    top: 700px;
-    left: 790px;*/
+    margin-right: 20px;
 }
 #youtube{
     width: 122px;
-    /*position: absolute;
-    top: 685px;
-    left: 900px;*/
+    margin-right: 20px;
 }
 #whatsapp{
     width: 82px;
     border-radius: 10px;
-    /*position: absolute;
-    top: 700px;
-    left: 1052px;*/
 }
-
 footer{
     display: flex;
     justify-content: right;
-    height: 63px;
+    height: 47px;
     background-color: rgba(0, 0, 0, 0.88);
     color: aliceblue;
 }
 footer p{
     font-size: calc(0em + 1vw);
-    padding: 20px 30px 0px 0px;
+    padding: 12px 30px 0px 0px;
     text-shadow: red 0 -2px;
 }
 
