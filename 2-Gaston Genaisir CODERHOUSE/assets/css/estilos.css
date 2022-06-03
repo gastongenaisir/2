@@ -146,26 +146,40 @@ form.contacto{
 }
 section form input{
     margin-bottom: 20px;
+    font-family: 'Russo One', sans-serif;
 }
 textarea{
     min-height: 100px;
     max-height: 200px;
     max-width: 100%;
+    font-family: 'Russo One', sans-serif;
 }
-#button{
+.button{
     padding: 20px;
     margin-top: 40px;
     color: brown;
+    font-weight: bold;
     background-color:rgba(179, 174, 174, 0.299);
+    color: #fff;
+    background-color: #730000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
 }
-#button:hover{
+.button:hover{
     cursor: pointer;
+    background-color: #3e8e411
+}
+.button:active{
+    background-color: #422b2b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 .redesContacto{
     display: flex;
     justify-content: center;    
     align-items: center;
-    margin-top: 75px;
+    margin-top: 60px;
 }
 .fotoSala{
     display: flex;
@@ -185,4 +199,20 @@ textarea{
     display: flex;
     width: 20%;
 }
-
+.servicios{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2% 0% 6% 15%
+}
+.listaServicios{
+    display: flex;
+    flex-flow: row wrap;
+    color: aliceblue;
+    font-family: 'Russo One', sans-serif;
+    font-size: calc(0.09em + 2vw);
+    text-shadow: red 0 -2px;
+    width: 50%;
+    margin-left: 35%;
+    margin-bottom: 8.7%;
+}
