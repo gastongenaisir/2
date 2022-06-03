@@ -167,4 +167,22 @@ textarea{
     align-items: center;
     margin-top: 75px;
 }
+.fotoSala{
+    display: flex;
+    flex-direction: row wrap;
+    width: 82%;
+    border-radius: 40px;
+    margin: 10%
+}
+.fotoTv{
+    display: flex;
+    flex-direction: row wrap;
+    width: 82%;
+    border-radius: 40px;
+    margin: 10%
+}
+.textoSala{
+    display: flex;
+    width: 20%;
+}
 
